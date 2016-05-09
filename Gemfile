@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'puma', '~> 3.0'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 gem 'uglifier', '>= 1.3.0'
+gem 'minitest-rails', '~> 3.0.0.rc1'
 
 group :development do
   gem 'web-console'
@@ -14,7 +15,6 @@ end
 group :test do
   gem 'guard-minitest'
   gem 'guard'
-  gem 'minitest-rails', '~> 3.0.0.rc1'
   gem 'rb-fsevent'
   gem 'terminal-notifier-guard'
 end
