@@ -32,6 +32,10 @@ It looks like the domain doesn't have a trailing backslash so the URI is not val
 http://www.example.com:80index
 ```
 
+I'm not quite sure why, but the previous version I was using was from over a year ago. The `working-version` branch of this app... well, it works. It uses [commit acea177b38d78d723a1ff236b8b013410c3ca3be](https://github.com/blowmage/minitest-rails/commit/acea177b38d78d723a1ff236b8b013410c3ca3be) from Dec 4, 2014.
+
+I should probably do a bisect to narrow it down...
+
 Any ideas?
 
 -
